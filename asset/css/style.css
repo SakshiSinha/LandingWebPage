@@ -414,39 +414,39 @@ hr{
   }
   
   .img-1{
-    background: url('/asset/img/G1.jpg') no-repeat center center;
+    background: url('./asset/img/G1.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   
   .img-2{
-    background: url('/asset/img/G2.jpg') no-repeat center center;
+    background: url('./asset/img/G2.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
   
   .img-3{
-    background: url('/asset/img/G3.jpg') no-repeat center center;
+    background: url('./asset/img/G3.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     
   }
   
   .img-4 {
-    background: url('/asset/img/G4.jpg') no-repeat center center;
+    background: url('./asset/img/G4.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
   
   .img-5 {
-    background: url('/asset/img/G5.jpg') no-repeat center center;
+    background: url('./asset/img/G5.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
 
   .img-6 {
-    background: url('/asset/img/G6.jpg') no-repeat center center;
+    background: url('./asset/img/G6.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
