@@ -440,13 +440,13 @@ hr{
   }
   
   .img-5 {
-    background: url('./asset/img/G5.jpg') no-repeat center center;
+    background: url("../img/G5.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
   }
 
   .img-6 {
-    background: url('./asset/img/G6.jpg') no-repeat center center;
+    background: url('../img/G6.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
   }
