@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER SECTION START--------------- */
+a{
+    color: #100e0d;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/asset/img/bg+amm.jpeg);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    line-height: 60px;
+    align-items: center;
+    padding: 0px 200px;
+    opacity: 0.8 !important; 
+  
+}
+
+.fixed-header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header ul li{
+   margin-right: 25px;
+   display: inline-block;
+}
+
+.dropdown-block{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ .dropdown-block option{
+    background-color: rgb(241, 98, 31);
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+ }
+
+ .Brouchure{
+    align-items: center;
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(178, 88, 4, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: Phantomsans, sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 0.5em;
+      max-width: 100%;
+      min-width: 100px;
+      padding: 3px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+  
+ }
+ .Brouchure:active,
+ .Brouchure:hover {
+   outline: 0;
+ }
+ 
+ .Brouchure span {
+   background-color: rgb(244, 95, 31);
+   padding: 16px 24px;
+   border-radius: 6px;
+   width: 100%;
+   height: 100%;
+   transition: 300ms;
+ }
+ 
+ .Brouchure:hover span {
+   background: none;
+ }
+ 
+ /* @media (min-width: 768px) {
+   .button-64 {
+     font-size: 24px;
+     min-width: 196px;
+   }
+ } */
+
+header ul li a{
+   font-weight: 600;
+ }
+
+header img{
+    width: 70px;
+    height: 70px;
+    padding-right: 5px;
+}
+
+header ul li a.active{
+    color:rgb(250, 103, 128);
+  }
+ /* HEADER SECTION END--------------- */
+
+
+
+ /* BANNER SECTION ------------------*/
+
+ .banner{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/bg1.jpg);
+    width: 100%;
+    height:750px;
+    background-size:100% 100% ;
+    padding: 0px 200px;
+    position: relative;
+    
+ }
+
+ .banner h1{
+    font-size: 70px;
+    font-weight: lighter;
+    position: absolute;
+    top:120px;
+    left:50%;
+    color: #fff;
+ } 
+
+
+ .hover-2 {
+    background: 
+      linear-gradient(#ea7434 0 0) 
+      bottom/100% var(--_d, 0) no-repeat;  /*This will make the up and down effect */
+    transition: 0.3s;
+  }
+  
+  .hover-2:hover {
+    --_d: 100%;
+  }
+
+/* Banner section end------------------ */
+
+
+
+/* SOCIAL MEDIA SECTION START---------------- */
+ 
+ .socialmedia{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/bg2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    padding:50px 125px;
+  }
+ 
+  .socialmedia h3{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family:Phantomsans, sans-serif ;
+    color: rgb(172, 243, 32);
+  }
+  .socialmedia ul{
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+    padding-top: 50px;
+  }
+ 
+  .socialmedia ul li{
+    color: #fff;
+    width: 110px;
+    height: 110px;
+    background-color:rgba(0,0,0,0.7);
+    text-align: center;
+    text-decoration: none;
+    padding:15px;
+    font-size: 35px;
+ 
+  } 
+ 
+  .socialmedia ul li h6{
+    font-size: 17px;
+    font-weight:bolder;
+  }
+ 
+/* SOCIAL MEDIA SECTION START---------------- */
+
+
+
+/* ======ABOUT COMPANY START=================== */
+
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 60px 200px;
+    background-color:#ddecd5;
+    color: rgb(203, 120, 12);
+    text-align: center;
+}
+
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.about button{
+    padding: 15px 120px;
+    font-weight: bold;
+    color: rgb(27, 101, 4);
+    background-color:  #ddecd5;
+    border: 2px solid rgb(234, 142, 4);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.about2{
+    display: flex;
+}
+
+.aboutimg img{
+    width: 90%;
+    height: 100%;
+}
+
+.abouttext ul{
+    color: rgb(9, 9, 62);
+}
+
+.abouttext h2{
+    color: red;
+}
+
+.abouttext ul li{
+    list-style-type: none;
+}
+/* ======ABOUT COMPANY END=================== */
+
+
+/* ======Coworkplans part start============== */
+
+.Coworkplans{
+    width: 100%;
+    height: auto;
+    padding: 60px 200px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr{
+    width: 50px;
+    height: 7px;
+    background-color: 
+    rgb(246, 113, 24);
+    justify-content: center;
+    margin-left: 550px;
+}
+
+
+  
+.Coworkplans h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
+  
+  .Coworkplans img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .Coworkplans .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .Coworkplans .btn:hover {
+    background-color: rgba(255, 255, 255, 0.20);
+  }
+  
+  .Coworkplans .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Coworkplans .card {
+    border-radius: 0.65rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .Coworkplans .cards_item {
+    width: 33.3%;
+    display: flex;
+    padding: 1rem;
+    height: auto;
+    border-radius: 0.65rem;
+  }
+  
+  /* @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+   */
+   
+  
+  .Coworkplans .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #f19253f3 40%, #f74747 100%);
+  }
+  
+  .Coworkplans .card_title {
+    color: #9e0b0b;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+  
+  .Coworkplans .card_text , h3 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  
+
+/* ======Coworkplans part start============== */
+
+
+
+
+
+/* ======GALLERY PHOTOS START================ */
+
+.gallery{
+    width: 100%;
+    height: 1000px;
+    padding: 60px 200px;
+    background-color: #ddecd5;
+    color: rgb(16, 14, 11);
+    text-align: center;
+}
+
+.galleryContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .galleryrow {
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px; 
+  }
+  
+  .img {
+    height: 50%;
+    margin: 10px;
+    box-shadow: 10px 14px 20px 0px rgba(226,204,189,1);
+  }
+  
+  .img-1{
+    background: url('/asset/img/G1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  
+  .img-2{
+    background: url('/asset/img/G2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .img-3{
+    background: url('/asset/img/G3.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    
+  }
+  
+  .img-4 {
+    background: url('/asset/img/G4.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .img-5 {
+    background: url('/asset/img/G5.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .img-6 {
+    background: url('/asset/img/G6.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+  }
+    
+    .img{
+      height: 50%;  
+    }
+    
+    .img-1,
+    .img-4,
+    .img-5 {
+      width: 24%;
+    }
+  
+    .img-2,
+    .img-3 ,
+    .img-6{
+      width: 70%;
+    }
+ 
+    .img:hover{
+            transform: scale(1.1);
+    }
+
+/* ===================GALLERY PART ENDS HERE======================= */
+
+
+
+/* ==============AMENITIES PART START HERE========================= */
+
+.amenities{
+    width: 100%;
+    height: 100%;
+    padding: 60px 200px;
+    background-color: #8feef5;
+    text-align: center;
+    color: #ccc;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/asset/img/bg+amm.jpeg);
+    width: 100%;
+}
+
+
+.amenties-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    word-wrap: break-word;
+    gap: 30px;
+}
+.amenties-card {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.amenties-card img{
+    width: 200px;
+    height: 150px;
+}
+
+
+/* ==============AMENITIES PART ENDS HERE========================= */
+
+
+
+
+/* =================LOCATION START================================ */
+
+/*general styles*/
+
+
+
+/*slideshow styles*/
+
+.location{
+    background-image: url("/asset/img/bg_location.jpeg") ;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/asset/img/loc+bg.jpg); */
+    padding: 60px 200px;
+    text-align: center;
+    color: #9e0b0b;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+
+.location p {
+    position: relative;
+    font-size: 25px;
+    padding: 5px;
+    font-family: cursive
+  }
+
+  .location i{
+    position: relative;
+    font-size: 30px;
+    padding: 5px;
+  }
+
+ .row {
+    display: flex;
+    overflow: hidden;
+    width: 500px;
+   }
+ .imagegroup {
+    display: flex;
+    width: 100%;
+   }
+ .imagegroup img{
+   flex-shrink: 0;
+   object-fit: cover;
+   border: 3px solid white;
+   width: 500px;
+ }
+ .imagegroup {
+    animation: travel 15s ease-in-out infinite;
+   }
+ @keyframes travel {
+    0%, 100% {
+       transform: translate3d(0,0,0);
+     }
+    50% {
+       transform: translate3d(-100%,0,0);
+     }
+  }
+
+  .left{
+    float: left;
+    width: 50%;
+  }
+
+  .right{
+    float: right;
+    width: 50%;
+
+  }
+  .center{
+    margin-left: 25%;
+  }
+/* =================LOCATION END ================================== */
+
+
+
+/* =================Quote srction start============================ */
+
+.quote{
+    height:550px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                url(/asset/img/road_bg.jpeg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.quote form{
+    width: 24rem;
+}
+
+.quote h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.quote h1 span{
+    font-size: 75px;
+    display: block;
+    font-weight: 600;
+}
+
+.quote aside{
+    padding: 25px;
+    
+    background-color: #022D7C;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.quote aside input[type],
+.quote aside textarea,
+.quote aside select{
+    width: 100%;
+    height:40px ;
+    margin: 7px;
+}
+
+.quote aside button{
+    width: 100%;
+    height:40px ;
+    margin: 7px;
+    background-color: rgb(248, 114, 12);
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+/* ========================Quote section End================ */
+
+
+/* ================Footer part start ==============================*/
+.footer{
+    width: 100%;
+    height: 500px;
+    padding: 50px 160px;
+    background-color: black;
+    
+ }
+ 
+ .topfooter{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .footer h2{
+    color: #ef5b06;
+    padding: 15px 0px;
+ }
+ 
+ .footer ul li{
+    list-style: none;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #f0eeee;
+ }
+
+ .footer ul li i{
+    color: white;
+ }
+ 
+ .footer ul li a span{
+    color: white;
+    font-weight: bold;
+ }
+ 
+
+ 
+ .lowerfooter{
+    display: flex;
+    margin-top: 40px;
+    color: #fff;
+    gap: 100px;
+ }
+ 
+ .lowerfooter div ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 0%;
+    font-size: 16px;
+    font-weight: 900;
+ }
+ 
+ 
+ .SocialMedia ul li a{
+    padding-left: 30px;
+ }
+ /* Footer part end */
+ 
+
+
+
+ .boxx{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 20px 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/asset/img/background_page.jpg);
+ }
